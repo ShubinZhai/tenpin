@@ -50,4 +50,12 @@ redis-commander
 ![img3](/imgs/img3.png)
 ![img4](/imgs/img4.png)
 
-
+### Enhancements
+First version is a quick and "dirty", "homework version". The enhancements are:
+<ol>
+<li>Top bottom code refactoring with OOP and better lambda flow</li>
+<li>more events for bonus points to leverage event sourcing design</li>
+<li>make use of state transition from frame to frame before bonus points are done</li>
+<li>better distributed locking(redlock) and kafka sub and config for consistency </li>
+<li>better tracking and coordination of players</li>
+</ol>
