@@ -2,7 +2,7 @@
 Tenpin scoring using Kafka and Redis
 
 ## Specs:
-See traditional scoring logic is per Wikepedia.
+See traditional scoring logic per <a href="https://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring">Wikepedia</a>.
 
 Additional logic:
 <ol>
