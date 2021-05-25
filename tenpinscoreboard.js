@@ -167,6 +167,7 @@ const recordScore = async ({ topic, partition, message }) => {
 
             }
             
+            //calculate running total score
             let finalscore=0;
             let frms=[]
             frms= playercachedscore.frames;
@@ -174,8 +175,10 @@ const recordScore = async ({ topic, partition, message }) => {
             playercachedscore.frames.forEach(frm=> finalscore+=frm.actualscore);
             playercachedscore.finalscore=finalscore;
 
+            //save to cache
             scorecache.setex(playercachedscore.playerid, 600, JSON.stringify(playercachedscore));
          
+            //set new leader
             if(leader.score<playercachedscore.finalscore){
                 leader.playerid=playercachedscore.playerid;
                 leader.score= playercachedscore.finalscore;
