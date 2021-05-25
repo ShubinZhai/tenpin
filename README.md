@@ -5,9 +5,11 @@ Tenpin scoring using Kafka and Redis
 See traditional scoring logic is per Wikepedia.
 
 Additional logic:
-a.) applying bonus points is hardest part and used counter to keep track state in current/non-refactored version
-b.) bonus is applied multiple times per "bonusballleft", but doesn't apply current frame
-c.) last frame(10th) requires check for "bonusballleft" before existing
+<ol>
+<li>applying bonus points is hardest part and used counter to keep track state in current/non-refactored version</li>
+<li>bonus is applied multiple times per "bonusballleft", but doesn't apply current frame</li>
+<li>last frame(10th) requires check for "bonusballleft" before existing</li>
+</ol>
 
 ## Design: 
 ### Code
