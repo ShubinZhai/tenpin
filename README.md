@@ -50,7 +50,7 @@ redis-commander
 ![img3](/imgs/img3.png)
 ![img4](/imgs/img4.png)
 
-### Enhancements
+## Enhancements
 First version is a quick and "dirty", "homework version". The enhancements are:
 <ol>
 <li>Top bottom code refactoring with OOP and better lambda flow</li>
