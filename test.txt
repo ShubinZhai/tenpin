@@ -1,0 +1,2 @@
+Following are the test case:
+1.) Verify manually entered score is less than 10
