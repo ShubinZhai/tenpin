@@ -1,3 +1,4 @@
 Following are the test case:
 1.) Verify manually entered score is less than 10
 2.) Verify total is not over 10 rounds
+3.) Verify last frame
